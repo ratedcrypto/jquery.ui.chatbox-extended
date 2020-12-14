@@ -1,3 +1,7 @@
+/* -----------------------------------------------
+/* Author : Rated Crypto - ratedcrypto@gmail.com
+/* MIT license: http://opensource.org/licenses/MIT
+/* ----------------------------------------------- */
 define(['jquery', 'jquery-ui'], function($) {
     $.widget("ui.chatbox", {
         options: {
