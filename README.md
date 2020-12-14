@@ -1,0 +1,1 @@
+# jquery.ui.chatbox-extended
