@@ -1,16 +1,14 @@
 # jquery.ui.chatbox-extended
-
-# php-long-poll
-jQuery UI Chatbox Plugin (extended) loaded via RequireJS. 
+jQuery UI Chatbox Plugin (extended) and loaded via RequireJS. 
 
 ## Usage
 
-Load jQuery, jQuery-ui, jQuery.ui.chatbox.js and jQuery.ui.chatbox.css in index.html and add a placeholder div tag for chatbox.
+Load jQuery, jQuery-ui, jQuery.ui.chatbox.js and jQuery.ui.chatbox.css in index.html and add a div tag for chatbox or refere to original plugin.
 
-**app.js**
+**index.js**
 ```javascript
 define(['jquery', 'jquery.ui.chatbox'], function($, ChatBox) {
-        var App = function (chatBoxSelector) {
+        function (chatBoxSelector) {
             chatBox = $(chatBoxSelector).chatbox({
                 id: chatBoxSelector,
                 title: "Notification",
