@@ -3,7 +3,7 @@ jQuery UI Chatbox Plugin (extended) and loaded via RequireJS.
 
 ## Usage
 
-Load jQuery, jQuery-ui, jQuery.ui.chatbox.js and jQuery.ui.chatbox.css in index.html and add a div tag for chatbox or refere to original plugin.
+Load jQuery, jQuery-ui, jQuery.ui.chatbox.js and jQuery.ui.chatbox.css in index.html and add a div tag for chatbox or refer to original plugin.
 
 **index.js**
 ```javascript
