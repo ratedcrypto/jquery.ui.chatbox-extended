@@ -23,7 +23,7 @@ define(['jquery', 'jquery.ui.chatbox'], function($, ChatBox) {
 
 
 	// Implement mark notifiaction as read 
-	function markNotificationAsRead = function() {
+	var markNotificationAsRead = function() {
 	}
     });
 
